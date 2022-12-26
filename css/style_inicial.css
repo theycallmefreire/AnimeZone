@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@600&display=swap');
+
+/*reseta as configurações em toda a page*/
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-decoration: none;
+
+}
+body {
+    font-size: 100%;
+    background: #FFD5EF;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.cabecalho-titulo{
+    height: 210px;
+
+}
+
+
+.cabecalho-itens{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 24px
+}
+
+.cabecalho-itens-imagem {
+    height: 180px;
+}
+.scabecalho-itens-searchbox{
+    position: absolute;
+    background: #6200ff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 40px;
+  
+}
+.search-btn{
+    color:white;
+    background-color: #FF005C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-txt{
+    border: none;
+    background: #FF005C;
+    outline: none;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 270px;
+    border-radius: 20px;
+    /* float: left; */
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-tips{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FF005C;
+    align-items: center;
+    height: 50px;
+    
+}
+.conteudo-tips-iten{
+    color:black;
+    font-family: 'Lato', sans-serif;
+    
+}
+.conteudo-tips-iten:hover{
+    color: white;
+}
+.conteudo-lancamentos{
+    align-self: center;
+    color: #FF005C;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.animes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.animes-itens{
+    width: 240px;
+    height: 350px;
+}
